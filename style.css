@@ -1,0 +1,82 @@
+/* 
+    Document   : style.css
+    Created on : Jan 25, 2014, 2:24:02 PM
+    Author     : Maurice Stephens
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.columns { float:left;}
+.number { font-size: 32pt; margin-left: 40px; }
+.annotation { font-size: 18pt; margin-left: 40px; }
+ul.abacus {list-style-type: none;}
+
+/* All Beads */
+li.bead {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    font-style: bold; 
+    margin-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+li.zero { 
+    border: none !important;  
+    color: #dddddd !important;
+    height: 15px;
+}
+
+span.bead_num { margin-left: 10px; margin-top: 5px; }
+span.zero {}
+
+/* Bead 1 */
+li.bead1 { cursor: pointer; border:1px solid #F00; }
+li.bead1.selected { margin-bottom:50px; border:5px solid #F00; }
+li.bead1.off { }
+
+/* Bead 2 */
+li.bead2 { cursor: pointer; border:1px solid #F00; }
+li.bead2.selected { margin-bottom:50px; border:5px solid #F00; }
+li.bead2.off { }
+
+/* Bead 3 */
+li.bead3 { cursor: pointer; border:1px solid #F00; }
+li.bead3.selected { margin-bottom:50px; border:5px solid #F00; }
+li.bead3.off { }
+
+/* Bead 4 */
+li.bead4 { cursor: pointer; border:1px solid #F00; }
+li.bead4.selected { margin-bottom:50px; border:5px solid #F00; }
+li.bead4.off { }
+
+/* Bead 5 */
+li.bead5 { cursor: pointer; border:1px solid #F00; }
+li.bead5.selected { margin-bottom:50px; border:5px solid #F00; }
+li.bead5.off { }
+
+/* Bead 6 */
+li.bead6 { cursor: pointer; border:1px solid #F00; }
+li.bead6.selected { margin-bottom:50px; border:5px solid #F00; }
+li.bead6.off { }
+
+/* Bead 7 */
+li.bead7 { cursor: pointer; border:1px solid #F00; }
+li.bead7.selected { margin-bottom:50px; border:5px solid #F00; }
+li.bead7.off { }
+
+/* Bead 8 */
+li.bead8 { cursor: pointer; border:1px solid #F00; }
+li.bead8.selected { margin-bottom:50px; border:5px solid #F00; }
+li.bead8.off { }
+
+/* Bead 9 */
+li.bead9 { cursor: pointer; border:1px solid #F00; }
+li.bead9.selected { margin-bottom:50px; border:5px solid #F00; }
+li.bead9.off { }
+
+/* Bead 10 */
+li.bead10 { cursor: pointer; border:1px solid #F00; }
+li.bead10.selected { margin-bottom:50px; border:5px solid #F00; }
+li.bead10.off { }
